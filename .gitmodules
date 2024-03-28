@@ -1,0 +1,3 @@
+[submodule "react-connections-game"]
+	path = react-connections-game
+	url = https://github.com/and-computers/react-connections-game.git
