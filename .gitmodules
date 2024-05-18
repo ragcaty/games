@@ -1,6 +1,6 @@
 [submodule "my-app/src/react-connections-game"]
 	path = my-app/src/react-connections-game
-	url = git@github.com:and-computers/react-connections-game.git
+	url = git@github.com:ragcaty/react-connections-game.git
 [submodule "my-app/src/wordle"]
 	path = my-app/src/wordle
-	url = https://github.com/thesam73/wordle.git
+	url = git@github.com:ragcaty/wordle.git
