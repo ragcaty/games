@@ -26,9 +26,6 @@ function Crossword() {
 		<Toggle onClick={() => setMyString("https://downforacross.com/beta/play/33802")}>
 		Create Easy
 		</Toggle>
-		<Toggle onClick={() => setMyString("https://downforacross.com/beta/play/33803")}>
-		Create Hard
-		</Toggle>
 		</div> : <div style={{textAlign: 'center'}} class="grid grid-rows-1 grid-cols-1 gap-4">
 			<form onSubmit={(event) => submitForm(event)}>
 				<input class="py-3 px-4 w-300 border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600" id="friendGame" type="text" placeholder="https://downforacross.com/beta/game/12345-abc"></input>
