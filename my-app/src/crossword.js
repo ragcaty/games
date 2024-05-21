@@ -23,7 +23,7 @@ function Crossword() {
 		<iframe id="embed-crossword" title="downforacross" allow="clipboard-read; clipboard-write" style={{border:'1px black solid', height: '500px', width: '350px'}} src={iframeSrc} onLoad={() => setShowButton(false)}></iframe>
 		</div>
 		{ showButton ? <div class="grid grid-rows-1 grid-cols-1 gap-4">
-		<Toggle onClick={() => setMyString("https://downforacross.com/beta/play/33802")}>
+		<Toggle onClick={() => setMyString("https://downforacross.com/beta/play/34924")}>
 		Create Easy
 		</Toggle>
 		<Toggle onClick={() => setMyString("https://downforacross.com/beta/play/33803")}>
